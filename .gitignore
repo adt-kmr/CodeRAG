@@ -1,0 +1,37 @@
+# Node.js
+**/node_modules/
+**/dist/
+**/build/
+.npm
+*.log
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.pytest_cache/
+**/.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+
+# Databases & Vector Stores (Local Temporary Stores)
+**/chroma_db_treesitter_graph_gemini/
+**/chroma_db_llm_graph_gemini/
+**/chroma_nograph_gemini/
+**/chroma_db_llm_graph/
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS Files
+Thumbs.db
+.DS_Store
